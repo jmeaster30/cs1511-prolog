@@ -1,0 +1,6 @@
+#!/bin/bash
+# This runs the prolog java program
+
+echo "== Welcome to JLog (John's Prolog System) =="
+java -cp ./java Main $@
+

@@ -1,0 +1,5 @@
+*.aux
+*.log
+old_examples
+notes
+java/*.class

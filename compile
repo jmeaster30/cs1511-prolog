@@ -1,0 +1,6 @@
+#!/bin/bash
+# this freshly compiles the prolog program
+
+echo "== Compiling =="
+rm java/*.class >> /dev/null
+javac java/*.java
