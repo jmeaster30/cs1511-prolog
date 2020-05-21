@@ -8,27 +8,27 @@ For the project, I made 2 examples but one was a family tree and since I used my
 ## Usage:
 
 * You can pass in the filenames of any prolog programs you want to load into the database as command line arguments
-* You can also load in prolog programs using the "load(X)." command in the repl where X is the name of the file (without the pl file extension)
-* You can write to the output stream using "write(X)."
-* You can output a newline to the output stream using "nl."
-* You can close the program using "exit."
+* You can also load in prolog programs using the ```load(X).``` command in the repl where X is the name of the file (without the pl file extension)
+* You can write to the output stream using ```write(X).```
+* You can output a newline to the output stream using ```nl.```
+* You can close the program using ```exit.```
 
 ### If you are running Mac / Linux:
   
 #### Compile:
     
-'''./compile'''
+```./compile```
   
 #### Run:
     
-'''./jlog <pl file> ...'''
+```./jlog <pl file> ...```
 
 ### If you are running Windows:
   
 #### Compile:
     
-'''javac java/*.java'''
+```javac java/*.java```
 
 #### Run:
     
-'''java -cp java Main <pl file> ...'''
+```java -cp java Main <pl file> ...```
